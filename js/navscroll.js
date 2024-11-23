@@ -5,7 +5,7 @@ function selectElementByClass(className) {
 //const all_entries = document.querySelectorAll('section');
 const short_entries = [
   selectElementByClass('home'),
-  selectElementByClass('honor'),
+  selectElementByClass('teaching'),
 ];
 const long_entries = [
   selectElementByClass('research'),
@@ -14,7 +14,7 @@ const long_entries = [
 const navItems = {
   home: selectElementByClass('home_nav'),
   research: selectElementByClass('research_nav'),
-  honor: selectElementByClass('honor_nav'),
+  teaching: selectElementByClass('teaching_nav'),
 };
 
 function make_active(id) {
